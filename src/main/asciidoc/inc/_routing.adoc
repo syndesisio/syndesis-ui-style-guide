@@ -1,0 +1,14 @@
+
+[[routing]]
+= Routing
+
+URLs should be consistent, short, canonical and easy to remember, while also being extensible. It can be common to have multiple views or operations
+for a single entity or a collection of entities.
+
+As an example, here are some examples for routes relating to the entity 'Connection':
+
+* `/connections` view all connections and search using query parameters
+* `/connections/:id` view connection given an id
+* `/connections/:id/edit` edit connection given an id
+* `/connections/new` create new connection
+* `/connections/install` custom views for collections of connections such as installing new connections

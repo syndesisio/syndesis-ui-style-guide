@@ -1,0 +1,21 @@
+= Red Hat iPaaS UI Style Guide
+Jimmi Dyson, Rachel Yordan, Stan Lewis, James Strachan;
+:revnumber: {version}
+:revdate: {localdate}
+:toc: macro
+:toclevels: 3
+:toc-title: iPaaS UI Style Guide
+:doctype: book
+:icons: font
+:plugin: fabric8
+:plugindir: {plugindir}
+
+ifndef::ebook-format[:leveloffset: 1]
+
+(C) 2016 The original authors.
+
+ifdef::basebackend-html[toc::[]]
+
+:numbered:
+
+include::inc/_routing.adoc[]

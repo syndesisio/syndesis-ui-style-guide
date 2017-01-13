@@ -1,0 +1,19 @@
+machine:
+  java:
+    version: openjdk8
+
+dependencies:
+  override:
+  - mvn dependency:resolve -Phtml,pdf
+
+test:
+  override:
+  - mvn -Phtml,pdf package
+
+deployment:
+  production:
+    branch: master
+    owner: redhat-ipaas
+    commands:
+      - ./ci-docs.sh
+
