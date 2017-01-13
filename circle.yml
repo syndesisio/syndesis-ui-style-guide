@@ -2,6 +2,11 @@ machine:
   java:
     version: openjdk8
 
+general:
+  branches:
+    only:
+    - master
+
 dependencies:
   override:
   - mvn dependency:resolve -Ppdf
