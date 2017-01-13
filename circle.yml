@@ -4,11 +4,11 @@ machine:
 
 dependencies:
   override:
-  - mvn dependency:resolve -Phtml,pdf
+  - mvn dependency:resolve -Ppdf
 
 test:
   override:
-  - mvn -Phtml,pdf package
+  - mvn -Ppdf package
 
 deployment:
   production:
