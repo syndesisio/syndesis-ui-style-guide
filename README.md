@@ -13,7 +13,7 @@ Simple :)
 
 * Fork this repository
 * Create a branch for your changes
-* Hack on you changes - see below
+* Hack on your changes - see below
 * Send in a PR
 
 ### Adding documentation
