@@ -1,11 +1,11 @@
-## Red Hat iPaaS UI Style Guide
+## Syndesis UI Style Guide
 
-This repository is to document the UI style guide for iPaaS development to
+This repository is to document the UI style guide for Syndesis development to
 try to ensure we have consistency through the UI, both to make it easier to
-contribute, but most importantly to have a consistent UX through the iPaaS.
+contribute, but most importantly to have a consistent UX through Syndesis.
 
-This style guide applies both to the main iPaaS UI and any modules that are
-imported to extend the functionality of the iPaaS.
+This style guide applies both to the main Syndesis UI and any modules that are
+imported to extend the functionality of the Syndesis.
 
 ### Contributing
 
